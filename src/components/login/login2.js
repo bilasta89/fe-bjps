@@ -1,4 +1,8 @@
-import React, { Component } from "react";
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/label-has-associated-control */
+/* eslint-disable react/prefer-stateless-function */
+import React, { Component } from 'react';
+
 export default class Login2 extends Component {
   render() {
     return (
@@ -6,15 +10,27 @@ export default class Login2 extends Component {
         <h3>Sign In</h3>
         <div className="mb-3">
           <label>Email address</label>
-          <input type="email" className="form-control" placeholder="Enter email" />
+          <input
+            type="email"
+            className="form-control"
+            placeholder="Enter email"
+          />
         </div>
         <div className="mb-3">
           <label>Password</label>
-          <input type="password" className="form-control" placeholder="Enter password" />
+          <input
+            type="password"
+            className="form-control"
+            placeholder="Enter password"
+          />
         </div>
         <div className="mb-3">
           <div className="custom-control custom-checkbox">
-            <input type="checkbox" className="custom-control-input" id="customCheck1" />
+            <input
+              type="checkbox"
+              className="custom-control-input"
+              id="customCheck1"
+            />
             <label className="custom-control-label" htmlFor="customCheck1">
               Remember me
             </label>
