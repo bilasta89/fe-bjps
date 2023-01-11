@@ -25,6 +25,7 @@ function Login() {
                 </InputGroup>
                 <InputGroup className="mb-2">
                   <Form.Control
+                    type="password"
                     placeholder="Password"
                     aria-label="Recipient's username"
                     aria-describedby="basic-addon2"
